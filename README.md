@@ -26,17 +26,18 @@ to the cluster with the nearest mean, serving as a prototype of the cluster.
 
 ```go
 import (
-	"github.com/muesli/kmeans"
-	"github.com/muesli/clusters"
+	"github.com/zoobr/kmeans"
+	"github.com/zoobr/clusters"
 )
 
 // set up a random two-dimensional data set (float64 values between 0.0 and 1.0)
 var d clusters.Observations
 for x := 0; x < 1024; x++ {
+	data := "any data"
 	d = append(d, clusters.Coordinates{
 		rand.Float64(),
 		rand.Float64(),
-	})
+	}, data)
 }
 
 // Partition the data points into 16 clusters
