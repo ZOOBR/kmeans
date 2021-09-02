@@ -33,7 +33,6 @@ import (
 // set up a random two-dimensional data set (float64 values between 0.0 and 1.0)
 var d clusters.Observations
 for x := 0; x < 1024; x++ {
-	data := "any data"
 	d = append(d, clusters.Coordinates{
 		rand.Float64(),
 		rand.Float64(),
