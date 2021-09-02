@@ -37,7 +37,7 @@ for x := 0; x < 1024; x++ {
 	d = append(d, clusters.Coordinates{
 		rand.Float64(),
 		rand.Float64(),
-	}, data)
+	})
 }
 
 // Partition the data points into 16 clusters
