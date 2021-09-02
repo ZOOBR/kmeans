@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/muesli/clusters"
+	"github.com/zoobr/clusters"
 
 	"github.com/wcharczuk/go-chart/v2"
 	"github.com/wcharczuk/go-chart/v2/drawing"
@@ -67,12 +67,10 @@ func (p SimplePlotter) Plot(cc clusters.Clusters, iteration int) error {
 		Width:  1024,
 		Series: series,
 		XAxis: chart.XAxis{
-			Style: chart.Style{
-			},
+			Style: chart.Style{},
 		},
 		YAxis: chart.YAxis{
-			Style: chart.Style{
-			},
+			Style: chart.Style{},
 		},
 	}
 

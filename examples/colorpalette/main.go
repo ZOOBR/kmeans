@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/muesli/clusters"
-	"github.com/muesli/kmeans"
+	"github.com/zoobr/clusters"
+	"github.com/zoobr/kmeans"
 
 	colorful "github.com/lucasb-eyer/go-colorful"
 )
